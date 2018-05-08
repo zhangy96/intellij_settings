@@ -30,6 +30,14 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'Delete'</ShortCut>
           <Description>Delete...</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Field...">
+        <Item>
+          <IdeaActionID>IntroduceField</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+F'</ShortCut>
+          <Description>Field...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -46,6 +54,22 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F'</ShortCut>
           <Description>Find in Path...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Generate...">
+        <Item>
+          <IdeaActionID>Generate</IdeaActionID>
+          <ShortCut>'Alt+Insert'</ShortCut>
+          <Description>Generate...</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Method...">
+        <Item>
+          <IdeaActionID>ExtractMethod</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+M'</ShortCut>
+          <Description>Method...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -81,12 +105,20 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'test'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'test'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Settings...">
         <Item>
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>43</Count>
+          <Count>45</Count>
         </Item>
       </Statistic>
       <Statistic Action="Surround With...">
